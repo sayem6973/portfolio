@@ -7,13 +7,14 @@ body{
         font-style: normal;
         font-variation-settings:
           "slnt" 0;
+          
 }
 
 /* shared css */
 
 .button{
     display: inline-flex;
-    padding: 16px 32px;
+    padding: 12px 26px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -24,9 +25,13 @@ body{
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
 
+}
+
+span,.red{
+    color: red;
 }
 
 
@@ -38,7 +43,6 @@ body{
     color: #fff;
     margin: 50px auto;
     flex-shrink: 0;
-    border-radius: 16px;
     
     
 }
@@ -106,7 +110,7 @@ body{
 .party-text-section{
     color: #fff;
     padding: 100px 0px 200px 126px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 80%);
 }
 .party-title{
     
@@ -129,3 +133,212 @@ body{
     line-height: 30px; 
 }
 
+/* location date time section css */
+
+.location-section{
+
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 0 auto;
+}
+.location-text{
+
+    padding-top:60px ;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+
+
+}
+
+/* offer section css */
+
+.offer-section{
+    width: 1320px;
+    height: 730px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.offer-img-parent{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: 443px;
+    height: 443px;  
+}
+
+.offer-img{
+    display: block;
+    margin: 43px auto;
+    
+}
+.offer-section p{
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.offer-para1{
+    width: 276px;
+}
+.offer-section>h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: capitalize;
+
+}
+.year{
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* holdy 50% area css */
+
+.holiday-text-area{
+    width: 1320px;
+    margin: 50px auto;
+    text-align: center;
+}
+.holiday-text-area p{
+    width: 1068px;
+    margin: 0 auto;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+} 
+
+/* holiday section css  */
+
+.holiday-section{
+    margin: 0 auto;
+    width: 1320px;
+    display: flex;
+    
+}
+.holiday-section>div{
+    width: 50%;
+    
+}
+
+.holiday-girl-img>img{
+    margin-left: 231px;
+    
+}
+.red-line{
+    position: relative;
+    top: -234px;
+    z-index: -1;
+   
+}
+
+.discount-50{
+    width: 206.841px;
+    height: 206.841px;
+    position: relative;
+    left: 120px;
+    top: -275px;
+
+}
+
+/* portfolio section css */
+.portfolio-section{
+    width: 1320px;
+    margin: 0px auto;
+}
+.portfolio-title{
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.portfolio-text>h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.portfolio-text>p{
+    width: 896px;
+}
+
+.portfolio-img-section{
+    margin-top: 100px;
+}
+.portfolio-img-section img{
+    margin: 6px;
+    
+    
+}
+/* subscribe section css */
+
+.subscribe-section{
+    text-align: center;
+    height: 616px;
+    margin: 100px auto;
+    width: 1320px;
+    border-radius: 16px;
+   background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-section>img{
+    margin-top: 100px;
+}
+.subscribe-section h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.subscribe-section p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.subscribe-input input{
+    margin-top: 50px;
+    width: 648px;
+    height: 70px;
+    background: #FFF;
+    text-align: center;
+}
+
+.subscribe{
+    top: 2px;
+    border-radius: 0 50px 50px 0px;
+    height: 77px;
+    position: relative;
+    right: 40px;
+}
